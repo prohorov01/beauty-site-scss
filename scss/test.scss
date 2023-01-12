@@ -192,35 +192,38 @@
   display: flex;
   justify-content: center;
 }
+.bg-img {
+  background-image: url(..//beauty-site-scss/images/Rectangle\ 2.png);
+  height: 604px;
 
-.sale {
-  padding-top: 192px;
-  padding-left: 405px;
-  display: grid;
-  max-width: 308px;
-  height: 220px;
-  h1 {
-    margin-bottom: 50px;
-  }
-  p {
-    width: 305px;
-  }
-  & > a {
-    @extend %btn;
-    @extend %fw-400;
-  }
-  a {
-    background: #f13c6e;
-    border: 2px solid #ffffff;
-    border-radius: 40px;
-    text-decoration: none;
-    color: #ffffff;
-    text-align: center;
+  .sale {
+    padding-top: 192px;
+    padding-left: 405px;
+    display: grid;
+    max-width: 308px;
+    height: 220px;
+    h1 {
+      margin-bottom: 50px;
+    }
+    p {
+      width: 305px;
+    }
+    & > a {
+      @extend %btn;
+      @extend %fw-400;
+    }
+    a {
+      background: #f13c6e;
+      border: 2px solid #ffffff;
+      border-radius: 40px;
+      text-decoration: none;
+      color: #ffffff;
+      text-align: center;
+    }
   }
 }
-
 .bg-img {
-  background-image: url(..//..//beauty-site-scss/images/Rectangle\ 2.png);
+  background-image: url(../beauty-site-scss/images/Rectangle\ 2.png);
   height: 604px;
 }
 .mt-80 {
