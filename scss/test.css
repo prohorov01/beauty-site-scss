@@ -21,7 +21,7 @@
   background: #e5e5e5;
 }
 
-.sub-footer > input, .table .container > a, .bg-img .sale > a, .right > input, .top-line_menu {
+.sub-footer > input, .table .container > a, .sale > a, .right > input, .top-line_menu {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -112,7 +112,7 @@
   /* margin-right: 515px; */
 }
 
-.sub-footer > input, .table .container > a, .bg-img .sale > a, .right > input {
+.sub-footer > input, .table .container > a, .sale > a, .right > input {
   box-sizing: border-box;
   width: 170px;
   height: 40px;
@@ -191,30 +191,31 @@
   justify-content: center;
 }
 
-.bg-img {
-  background-image: url(/images/Rectangle\ 2.png);
-  height: 604px;
-}
-.bg-img .sale {
+.sale {
   padding-top: 192px;
   padding-left: 405px;
   display: grid;
   max-width: 308px;
   height: 220px;
 }
-.bg-img .sale h1 {
+.sale h1 {
   margin-bottom: 50px;
 }
-.bg-img .sale p {
+.sale p {
   width: 305px;
 }
-.bg-img .sale a {
+.sale a {
   background: #f13c6e;
   border: 2px solid #ffffff;
   border-radius: 40px;
   text-decoration: none;
   color: #ffffff;
   text-align: center;
+}
+
+.bg-img {
+  background-image: url(..//..//beauty-site-scss/images/Rectangle\ 2.png);
+  height: 604px;
 }
 
 .mt-80 {
